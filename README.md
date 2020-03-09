@@ -5,6 +5,6 @@
 - ``` dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All ```
 - Enable Hypervisor with following command - 
 - ``` bcdedit /set hypervisorlaunchtype auto . ```
-``` Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All ```
+- ``` Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All ```
 
 ## Run the above command on Powershell as admin and restart the PC
